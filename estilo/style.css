@@ -31,7 +31,16 @@ section#telefone{
     height: 500px;
     width: 300px;
     background-color: blue;
-    background: url('../imagens/depositphotos_52199931-stock-photo-new-apple-silver-iphone-5s.jpg') no-repeat;
+    background: url('../imagens/celular02.png') no-repeat;
     border: 5px;
+
+}
+
+iframe#tela{
+    position: relative;
+    top: 60px;
+    left: 16px;
+    width: 178px;
+    height: 315px;
 
 }
