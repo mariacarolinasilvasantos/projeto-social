@@ -11,7 +11,7 @@ html, body{
 
 }
 body{
-    background: url('../imagens/pngtree-vibrant-and-abstract-fluid-art-colorful-texture-wallpaper-background-for-design-image_13652286.png') no-repeat top center;
+    background: url('../imagens/fundo.jpg') no-repeat top center;
     background-size: cover;
 
 }
@@ -43,4 +43,21 @@ iframe#tela{
     width: 178px;
     height: 315px;
 
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.904);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5p 10px rgba(0, 0, 0, 0.733);
+    transition: transform 1s;
 }
